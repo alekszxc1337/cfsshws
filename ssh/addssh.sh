@@ -48,7 +48,7 @@ clear
 #systemctl restart openvpn-ohp
 if [[ "$Login" = "$cek" ]]; then
 echo -e "======================"
-echo -e "${error1} User ${Login} Sudah Terdaftar"
+echo -e "${error1} User ${Login} Already Registered"
 echo -e "======================"
 exit 0
 else
@@ -57,7 +57,7 @@ expi="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n" | passwd $Login &> /dev/null
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 expi=`date -d "${hari} days" +"%Y-%m-%d"`
-echo -e  "${success} Menambahkan User Please Wait.."
+echo -e  "${success} Adding User Please Wait.."
 sleep 5
 clear
 fi
