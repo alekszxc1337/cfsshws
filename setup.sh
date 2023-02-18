@@ -89,7 +89,7 @@ rm -f /root/newhost.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
-Documentation=https://t.me/Gonfreecs600
+Documentation=https://aogirivpn.com/documentation
 
 [Service]
 Type=oneshot
@@ -109,7 +109,7 @@ echo "1.2" > /home/ver
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Gl33ch3r Project-===========================" | tee -a log-install.txt
+echo "=================================-Aogiri VPN Installer-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -149,7 +149,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "---------------------- Script Mod By Gl33ch3r ----------------------" | tee -a log-install.txt
+echo "---------------------- Script Mod By Aogiri VPN ----------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
